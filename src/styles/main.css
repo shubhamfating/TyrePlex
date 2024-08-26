@@ -1,0 +1,610 @@
+
+.navbar-nav > li:hover > .dropdown-menu {
+    display: block;
+
+}
+.dropdown-menu {
+    display: none; /* Initially hide the dropdown */
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.custom-navbar {
+  border-bottom: 2px solid #ddd;
+}
+
+.custom-toggle-button {
+  border: none;
+}
+
+.custom-nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.custom-dropdown-item {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.custom-login-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+}
+
+
+/* for Hemkunt Tyres */
+
+.business-details {
+    margin: 20px;
+    padding: 20px;
+    margin-top: 6%;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .business-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating-value {
+    background-color: green; /* Green background color */
+    color: white; /* White text color */
+    padding: 5px 10px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    font-size: 1rem; /* Adjust the font size as needed */
+    display: inline-block; /* Ensure the box wraps the text */
+  }
+  
+  
+  .star-rating {
+    color: gold;
+    font-size: 2rem;
+    line-height: 1;
+    margin-left: 15px;
+  
+  }
+  
+  .reviews-count,
+  .verified-badge {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .address,
+  .hours {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .get-directions-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+ /* styles.css or relevant CSS file */
+
+.google-reviews {
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow for the container */
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+  }
+  
+  .reviews-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333; /* Darker color for the title */
+  }
+  
+  .reviews-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    gap: 20px; /* Space between cards */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  .reviews-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+  }
+  
+  .review-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Subtle shadow for the card */
+    padding: 15px;
+    width: 300px; /* Adjust width for a better card size */
+    height: 150px; /* Increase height to fit 3 lines of review text */
+    flex-shrink: 0; /* Prevent shrinking */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Enhance shadow on hover */
+  }
+  
+  .reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-image {
+    width: 40px; /* Adjust size of the profile image */
+    height: 40px; /* Adjust size of the profile image */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 10px; /* Space between the image and the name */
+    object-fit: cover; /* Ensure the image covers the circle */
+  }
+  
+  .profile-initials {
+    width: 40px; /* Size of the fallback circle */
+    height: 40px; /* Size of the fallback circle */
+    border-radius: 50%; /* Make the circle */
+    color: #fff; /* Text color for the initials */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px; /* Font size of the initials */
+    font-weight: bold; /* Font weight of the initials */
+    margin-right: 10px; /* Space between the circle and the name */
+  }
+  
+  .reviewer-name {
+    font-size: 16px;
+    color: #555; /* Slightly lighter color for the name */
+  }
+  
+  .review-text {
+    font-size: 14px;
+    color: #666; /* Lighter color for the review text */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
+    display: -webkit-box; /* Needed for multi-line truncation */
+    -webkit-line-clamp: 3; /* Limit text to 3 lines */
+    -webkit-box-orient: vertical; /* Set the box to vertical */
+    white-space: normal; /* Allow text to wrap */
+  }
+  
+  
+  /*END for Hemkunt Tyres */
+
+  .verified-badge {
+    font-size: 1rem; /* Adjust the font size if needed */
+    font-weight: bold; /* Make the text bold */
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .verified-icon {
+    color: green; /* Set the icon color to green */
+    font-size: 1.75rem; /* Increase the size of the icon */
+    margin-right: 5px; /* Ensure spacing between the icon and text */
+   
+  }
+  
+  .verified-text {
+    color: green; /* Set the text color to green */
+    font-size: 1.50rem; /* Adjust the text size to match the icon */
+  }
+  
+  .spaced-image {
+    margin-right: 35px; /* Space to the right of each image */
+  }
+  
+  .col-sm-7 {
+    display: flex;
+    justify-content: space-between; /* Space between the images */
+  }
+
+  /* In your CSS file or style block */
+.navbar-collapse {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column; /* Ensure items are stacked vertically */
+  align-items: center; /* Center items vertically in the column */
+  
+}
+
+.navbar-nav .nav-item {
+  margin-bottom: 10px; /* Optional: Space between items */
+}
+
+.card {
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.card img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.btn-danger {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+
+
+
+
+.payment-modes-container {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.payment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.payment-list li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.checkmark-icon {
+  color: #28a745; /* Green color */
+  margin-right: 9px;
+  font-size: x-large;
+}
+
+
+
+
+
+
+.deals-in-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.deals-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px; /* Space between cards */
+  padding-bottom: 10px;
+  max-width: calc(6 * 220px + 5 * 10px); /* Maximum width for 6 cards plus gaps */
+  margin: 0 auto; /* Center the container */
+}
+
+.deal-card {
+  width: 200px; /* Fixed width for each card */
+  flex: 0 0 auto;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: start;
+  transition: transform 0.2s;
+}
+
+.deal-card:hover {
+  transform: scale(1.05);
+}
+
+.deal-image {
+  max-height: 75px;
+  object-fit: contain;
+  padding: 0px;
+}
+
+.deal-name {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Hide scrollbar but keep functionality */
+.deals-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.deals-scroll-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-question {
+  background-color: #fff3cd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-question h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #343a40;
+}
+
+.footer-question p {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.footer-search input {
+  padding: 10px;
+  border: 2px solid #ffcc00;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-logo img {
+  max-width: 100px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-link {
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #6c757d;
+}
+
+
+
+
+.warranty-tag {
+  position: absolute;
+    top: 0;
+    right: 0;
+    background-color: hsl(44, 88%, 76%);
+    color: #302d2d;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 2px 9px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.warranty-tag img {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* src/App.css */
+.tyre-card {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+    height: 275px;
+  overflow: hidden;
+}
+
+.tyre-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.brand-logo img {
+  width: 80px;
+  height: auto;
+}
+
+.warranty {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.model-name {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.size {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.tyre-image {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 150px;
+  height: auto;
+  z-index: 1;
+}
+
+.tyre-image img {
+  width: 130%;
+  height: auto;
+}
+
+.rating-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.rating-icon {
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 20%;
+  font-size: medium;
+  margin-right: 5px;
+  height: 20px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-value {
+  color: #fff;
+  background-color: #28a745;
+  padding: 0 5px;
+  border-radius: 20%;
+  font-weight: bold;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-muted {
+  color: #6c757d; /* Bootstrap's muted text color */
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #333;
+  /* Space between reviews and price */
+}
+
+.offer {
+  font-size: 0.9rem;
+  color: #28a745;
+  margin-bottom: 5px;
+}
+
+.type {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.filter-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-by,
+.sort-by {
+  padding: 5px;
+}
+
+.advanced-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.advanced-link:hover {
+  text-decoration: underline;
+}
+
+.tyre-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mrf{
+  margin-top: 8%;
+}
+
