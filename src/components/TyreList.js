@@ -204,7 +204,7 @@ const TyreList = () => {
               <option value="Model: A to Z">Model: A to Z</option>
               <option value="Model: Z to A">Model: Z to A</option>
             </select>
-            <a href="#" className="advanced-link">
+            <a href="/mrf" className="advanced-link">
               Advanced
             </a>
           </div>
