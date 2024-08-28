@@ -42,10 +42,10 @@ const Footer = () => {
               />
             </div>
             <div className="footer-social-icons">
-              <a href="#" className="social-icon mb-2" style={{ fontSize: "30px" }}>
+              <a href="/" className="social-icon mb-2" style={{ fontSize: "30px" }}>
                 <FaFacebook />
               </a>
-              <a href="#" className="social-icon" style={{ fontSize: "30px" }}>
+              <a href="/" className="social-icon" style={{ fontSize: "30px" }}>
                 <FaInstagram />
               </a>
             </div>
@@ -54,29 +54,29 @@ const Footer = () => {
           {/* Navigation Links */}
           <div className="footer-nav d-flex justify-content-between w-100 col">
             <div className="d-flex flex-column align-items-start">
-              <a href="#" className="footer-link mb-2">
+              <a href="/" className="footer-link mb-2">
                 Who We Are
               </a>
-              <a href="#" className="footer-link mb-2">
+              <a href="/" className="footer-link mb-2">
                 Are you a Tyre Dealer?
               </a>
             </div>
             <div className="d-flex flex-column align-items-start">
-              <a href="#" className="footer-link mb-2">
+              <a href="/" className="footer-link mb-2">
                 Privacy Policy
               </a>
-              <a href="#" className="footer-link mb-2">
+              <a href="/" className="footer-link mb-2">
                 Terms of Use
               </a>
             </div>
             <div className="d-flex flex-column align-items-start">
-              <a href="#" className="footer-link mb-2">
+              <a href="/" className="footer-link mb-2">
                 Contact Us
               </a>
-              <a href="#" className="footer-link mb-2">
+              <a href="/" className="footer-link mb-2">
                 Career
               </a>
-              <a href="#" className="footer-link">
+              <a href="/" className="footer-link">
                 Shipping & Return Policy
               </a>
             </div>
