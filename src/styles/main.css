@@ -51,6 +51,7 @@
   .business-name {
     font-size: 24px;
     font-weight: bold;
+    margin-top: 30px;
   }
   
   .rating {
@@ -222,21 +223,29 @@
   }
 
   /* In your CSS file or style block */
+/* Center the collapsible navbar items horizontally */
 .navbar-collapse {
   display: flex;
   justify-content: center; /* Centers the items horizontally */
 }
 
+/* Stack items vertically and center them */
 .navbar-nav {
   display: flex;
-  flex-direction: column; /* Ensure items are stacked vertically */
-  align-items: center; /* Center items vertically in the column */
-  
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
 }
 
+/* Optional: Add space between items */
 .navbar-nav .nav-item {
-  margin-bottom: 10px; /* Optional: Space between items */
+  margin-bottom: 10px; /* Space between items */
 }
+
+/* Optional: Adjust the height of the navbar items if needed */
+.navbar-nav .nav-link {
+  padding: 10px 15px; /* Adjust padding for better spacing */
+}
+
 
 .card {
   border: none;
@@ -607,6 +616,9 @@
 }
 
 .mrf{
-  margin-top: 8%;
-}
+  margin-top: 12%;
+ }
 
+.mrfhead{
+margin-bottom: 5%;
+}

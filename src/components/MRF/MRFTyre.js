@@ -9,7 +9,7 @@ const MRFTyre = () => {
     <div>
       <Navbar />
       <div className="mrf"> 
-      <div className="container card mt-5">
+      <div className="container card mrfhead mt-5">
         <h1 className="m-2 ">MRF Car Tyres</h1>
         <p className="m-2 h5">
           MRF Tyres manufactures 60 tyres that can fit in Cars. Price for MRF
