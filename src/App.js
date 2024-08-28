@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HemkuntTyres from "./components/hemkunttyres/HemkuntTyres";
 import MRFTyre from "./components/MRF/MRFTyre";
 import LoginSignupForm from "./components/LoginSignupForm";
-import './styles/main.css';
 
 function App() {
   return (
